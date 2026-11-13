@@ -71,9 +71,13 @@
       { id: 'so6', title: 'Schwächen gezielt trainieren', activity: 'schwach', min: 20 }] }
   ];
 
+  // LEHRKRAFT: "seit wann" — the numbers from Lukas's class notes (Heft, Nov 2026). Other books give slightly
+  // different numbers (e.g. Fische ca. 500–530, Vögel ca. 150 Mio. Jahre); the ORDER is what matters most.
+  var SINCE = { 'Fische': 570, 'Amphibien': 375, 'Reptilien': 300, 'Säugetiere': 200, 'Vögel': 120 };
+
   var lessons = {}, questions = [];
   root.BIO = root.BIO || {};
-  root.BIO.curriculum = { modules: MODULES, objectives: OBJ, plan: PLAN, lessons: lessons, questions: questions,
+  root.BIO.curriculum = { modules: MODULES, objectives: OBJ, plan: PLAN, since: SINCE, lessons: lessons, questions: questions,
     obj: function (id) { return OBJ[id - 1]; }, module: function (id) { return MODULES.filter(function (m) { return m.id === id; })[0]; } };
   root.BIO.content = {
     lesson: function (l) { lessons[l.obj] = l; },

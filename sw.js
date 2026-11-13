@@ -1,6 +1,6 @@
 /* sw.js — Biologie-Bobins offline cache. Network first (updates arrive), cache as fallback.
    Bump VERSION on every release. */
-const VERSION = 'bio-v1.0.0';
+const VERSION = 'bio-v1.1.0';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'css/bio.css', 'icons/icon.svg', 'rb-card.js',
   'data/curriculum.js', 'data/mod-a.js', 'data/mod-b.js', 'data/mod-c.js', 'data/mod-d.js', 'data/mod-e.js', 'data/mod-f.js', 'data/mod-g.js', 'data/mod-h.js',
   'js/speech.js', 'js/check.js', 'js/progress.js', 'js/figs.js', 'js/session.js', 'js/platform.js', 'js/ui.js', 'js/qw.js', 'js/runner.js', 'js/screens.js', 'js/app.js',

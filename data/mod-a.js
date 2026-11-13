@@ -9,6 +9,7 @@
       'Alle **Wirbeltiere** haben eine **Wirbelsäule** und einen Schädel. Sie stammen von gemeinsamen Vorfahren ab.',
       'Ein **Stammbaum** zeigt, wie Tiergruppen miteinander **verwandt** sind. Unten ist früher, oben ist heute.',
       'Jede Verzweigung ist ein **gemeinsamer Vorfahre**. Diese Vorfahren leben heute nicht mehr. Wir kennen sie aus **Fossilien**.',
+      'Alle Wirbeltiere stammen von **gemeinsamen Vorfahren** ab: den **ersten Fischen**. Wann die Klassen entstanden sind (laut Heft): **Fische vor 570**, **Amphibien vor 375**, **Reptilien vor 300**, **Säugetiere vor 200** und **Vögel vor 120 Millionen Jahren** (aus Dinosauriern).',
       'Zuerst gab es nur **Fische** im Wasser. Aus fischähnlichen Vorfahren entwickelten sich die ersten Landwirbeltiere: Sie hatten Beine und eine Lunge. Von ihnen stammen die **Amphibien** ab.',
       'Später entstand das **Ei mit Schale**. Nun konnten Tiere ganz an Land leben. Aus diesen Vorfahren entstanden zwei Linien: eine führt zu den **Säugetieren**, die andere zu den **Reptilien** und **Vögeln**.',
       'Vögel stammen von **Dinosauriern** ab. Darum sind Vögel mit den Reptilien näher verwandt als mit den Säugetieren.',
@@ -18,13 +19,13 @@
     vocab: [['Wirbeltier', 'Wir-bel-tier', 'Tier mit Wirbelsäule'], ['Stammbaum', 'Stamm-baum', 'Bild, das die Verwandtschaft zeigt'], ['Vorfahre', 'Vor-fah-re', 'Tier, von dem spätere Tiere abstammen'],
       ['Fossil', 'Fos-sil', 'versteinerter Rest eines Lebewesens'], ['Evolution', 'E-vo-lu-ti-on', 'langsame Veränderung der Lebewesen über viele Generationen']],
     example: { q: 'Sind Vögel enger mit Krokodilen oder mit Hunden verwandt?', a: 'Mit Krokodilen. Im Stammbaum trennen sich Vögel und Reptilien erst spät (Verzweigung weit oben). Die Linie zu den Säugetieren hat sich schon früher abgetrennt.' },
-    notes: [{ k: 'Genauer', t: 'Säugetiere stammen nicht von heutigen Reptilien ab, sondern von frühen Landwirbeltieren, die reptilienähnlich aussahen.' }],
-    summary: ['Ein Stammbaum zeigt Verwandtschaft: unten früher, oben heute.', 'Verzweigungen = gemeinsame Vorfahren.', 'Reihenfolge des Auftretens: Fische → Amphibien → Reptilien → Säugetiere → Vögel.', 'Vögel und Reptilien sind enger verwandt als Vögel und Säugetiere.'],
+    notes: [{ k: 'Genauer', t: 'Säugetiere stammen nicht von heutigen Reptilien ab, sondern von frühen Landwirbeltieren, die reptilienähnlich aussahen.' }, { k: 'LEHRKRAFT', t: 'Die Jahreszahlen sind aus deinem Heft. In anderen Büchern stehen manchmal etwas andere Zahlen (z. B. Vögel vor 150 Mio. Jahren). In der Arbeit nimm die Zahlen aus dem Unterricht – und vor allem die richtige Reihenfolge.' }],
+    summary: ['Ein Stammbaum zeigt, wie alle Wirbeltiere von gemeinsamen Vorfahren (den ersten Fischen) abstammen: unten früher, oben heute.', 'Verzweigungen = gemeinsame Vorfahren.', 'Reihenfolge: Fische (570) → Amphibien (375) → Reptilien (300) → Säugetiere (200) → Vögel (120 Mio. Jahre).', 'Vögel und Reptilien sind enger verwandt als Vögel und Säugetiere.'],
     simple: 'Stell dir einen Familienstammbaum vor: Du und dein Cousin habt gemeinsame Großeltern. Du bist aber nicht der Vorfahr deines Cousins. Genauso haben Frosch und Eidechse gemeinsame Vorfahren.',
     check: ['a1-01', 'a1-03', 'a1-05', 'a1-07'] });
 
   Q({ id: 'a1-01', o: 1, t: 'mc', lv: 1, q: 'Was zeigt ein Stammbaum der Wirbeltiere?', a: 'wie die Tiergruppen miteinander verwandt sind', w: ['welches Tier am größten ist', 'wo die Tiere heute leben', 'was die Tiere fressen'], why: 'Ein Stammbaum zeigt Verwandtschaft und gemeinsame Vorfahren.' },
-    { id: 'a1-02', o: 1, t: 'order', lv: 1, q: 'Bringe die Wirbeltierklassen in die Reihenfolge, in der sie zuerst auftraten (zuerst oben).', i: ['Fische', 'Amphibien', 'Reptilien', 'Säugetiere', 'Vögel'], why: 'Fische ca. 500, Amphibien ca. 370, Reptilien ca. 320, Säugetiere ca. 220, Vögel ca. 150 Millionen Jahre.' },
+    { id: 'a1-02', o: 1, t: 'order', lv: 1, q: 'Bringe die Wirbeltierklassen in die Reihenfolge, in der sie zuerst auftraten (zuerst oben).', i: ['Fische', 'Amphibien', 'Reptilien', 'Säugetiere', 'Vögel'], why: 'Laut Heft: Fische vor 570, Amphibien vor 375, Reptilien vor 300, Säugetiere vor 200, Vögel vor 120 Millionen Jahren.' },
     { id: 'a1-03', o: 1, t: 'mc', lv: 2, q: 'Was bedeutet eine Verzweigung (ein Punkt) im Stammbaum?', a: 'Dort lebte ein gemeinsamer Vorfahre der Gruppen.', w: ['Dort sind die Tiere ausgestorben.', 'Dort hat sich ein Tier in ein anderes verwandelt.', 'Dort leben die Tiere heute.'], why: 'Jede Verzweigung steht für gemeinsame Vorfahren, die es heute nicht mehr gibt.' },
     { id: 'a1-04', o: 1, t: 'match', lv: 2, q: 'Ordne die Buchstaben im Stammbaum den Klassen zu.', fig: { n: 'tree', o: { hide: true, letters: true, innov: true } },
       p: [['A', 'Fische'], ['B', 'Amphibien'], ['C', 'Säugetiere'], ['D', 'Reptilien'], ['E', 'Vögel']], why: 'Fische zweigen zuerst ab, dann Amphibien. Danach trennen sich Säugetiere von der Linie der Reptilien und Vögel.' },
@@ -38,6 +39,9 @@
       m: 'Frosch und Eidechse leben beide heute. Keiner ist der Vorfahre des anderen. Sie haben aber gemeinsame Vorfahren. Diese sind ausgestorben.', why: 'Im Stammbaum stehen alle heutigen Klassen oben nebeneinander.' },
     { id: 'a1-09', o: 1, t: 'fill', lv: 2, q: 'Ergänze.', s: 'Die Verzweigungen im Stammbaum stehen für gemeinsame {Vorfahren|Vorfahre|Ahnen}. Wir kennen sie aus {Fossilien|Fossil|Versteinerungen}.', bank: ['Vorfahren', 'Fossilien', 'Nachkommen', 'Knochen'], why: 'Fossilien sind versteinerte Reste von Lebewesen.' },
     { id: 'a1-10', o: 1, t: 'mc', lv: 3, q: 'Welche Erfindung der Natur machte ein Leben ganz an Land möglich, auch für die Fortpflanzung?', a: 'das Ei mit Schale', w: ['die Kiemen', 'die Flosse', 'der Laich im Wasser'], why: 'Das Ei mit Schale trocknet an Land nicht aus. Amphibien müssen zum Laichen noch ins Wasser.' },
+    { id: 'a1-12', o: 1, t: 'match', lv: 2, q: 'Seit wann gibt es die Wirbeltierklassen? (Zahlen aus dem Heft)', p: [['Fische', 'seit 570 Mio. Jahren'], ['Amphibien', 'seit 375 Mio. Jahren'], ['Reptilien', 'seit 300 Mio. Jahren'], ['Säugetiere', 'seit 200 Mio. Jahren'], ['Vögel', 'seit 120 Mio. Jahren']], why: 'Je älter die Klasse, desto größer die Zahl: zuerst die Fische, zuletzt die Vögel.' },
+    { id: 'a1-13', o: 1, t: 'fill', lv: 2, q: 'Ergänze (Zahlen aus dem Heft).', s: 'Die ersten Fische gab es vor {570} Millionen Jahren. Vögel entstanden vor {120} Millionen Jahren aus {Dinosauriern|Dinosaurier|Sauriern}.', why: 'Vögel sind die jüngste Klasse – sie stammen von Dinosauriern ab.' },
+    { id: 'a1-14', o: 1, t: 'mc', lv: 1, q: 'Von welchen Tieren stammen laut Stammbaum alle Wirbeltiere ab?', a: 'von gemeinsamen Vorfahren – den ersten Fischen', w: ['von den Vögeln', 'von den Säugetieren', 'von den Insekten'], why: 'Die ersten Wirbeltiere lebten im Wasser: frühe Fische.' },
     { id: 'a1-11', o: 1, t: 'mc', lv: 2, q: 'Woran erkennt man im Stammbaum, dass Säugetiere und Reptilien enger verwandt sind als Säugetiere und Fische?', a: 'Ihre Linien trennen sich erst weiter oben (später).', w: ['Sie stehen weiter links.', 'Sie sind größer gezeichnet.', 'Ihre Namen beginnen mit S und R.'], why: 'Je später (höher) sich zwei Linien trennen, desto enger sind sie verwandt.' });
 
   // ------------------------------------------------------------------ 2 Fünf Klassen
@@ -76,18 +80,20 @@
   L({ obj: 3, title: 'Merkmale der fünf Klassen',
     text: [
       'Jede Klasse hat typische **Merkmale**. Vergleiche: **Haut**, **Atmung**, **Fortpflanzung**, **Lebensraum** und **Körpertemperatur**.',
-      '**Fische:** Schuppen und Schleim · Kiemen · Laich (Eier ohne Schale) im Wasser, meist äußere Befruchtung · Wasser · wechselwarm.',
+      '**Fische:** Schuppen mit Schleim überzogen · Kiemen · Laich (Eier ohne Schale) im Wasser, meist äußere Befruchtung · Wasser · wechselwarm.',
       '**Amphibien:** nackte, feuchte, drüsenreiche Haut · Larven (Kaulquappen) mit Kiemen, erwachsene Tiere mit Lungen und Hautatmung · Laich im Wasser · Wasser und Land · wechselwarm. Aus der Larve wird ein Landtier: **Metamorphose**.',
       '**Reptilien:** trockene Haut mit **Hornschuppen** · Lungen · innere Befruchtung, Eier mit ledriger oder harter Schale an Land · vor allem Land · wechselwarm.',
-      '**Vögel:** **Federn**, Hornschuppen an den Beinen · Lungen (mit Luftsäcken) · innere Befruchtung, Eier mit **Kalkschale**, sie brüten · Land und Luft · gleichwarm.',
-      '**Säugetiere:** **Haare/Fell** · Lungen · innere Befruchtung, meist **lebend geboren**, Junge trinken **Milch** · fast überall · gleichwarm.'
+      '**Vögel:** **Schnabel**, **Flügel** mit **Federn**, Hornschuppen an den Beinen · Lungen (mit Luftsäcken) · innere Befruchtung, Eier mit **Kalkschale**, sie brüten · Land, Luft und Wasser · gleichwarm.',
+      '**Säugetiere:** **Haare/Fell** · Lungen · innere Befruchtung, meist **lebend geboren**, Junge trinken **Milch** · an Land, im Wasser oder in der Luft · gleichwarm.'
     ],
     table: { head: ['', 'Fische', 'Amphibien', 'Reptilien', 'Vögel', 'Säugetiere'], rows: [
       ['Haut', 'Schuppen, Schleim', 'nackt, feucht', 'Hornschuppen', 'Federn', 'Haare / Fell'],
       ['Atmung', 'Kiemen', 'Larve: Kiemen; erwachsen: Lunge + Haut', 'Lunge', 'Lunge (+ Luftsäcke)', 'Lunge'],
       ['Fortpflanzung', 'Laich im Wasser', 'Laich im Wasser, Metamorphose', 'Eier mit weicher/harter Schale an Land', 'Eier mit Kalkschale, Brüten', 'meist lebend geboren, Milch'],
       ['Lebensraum', 'Wasser', 'Wasser und Land', 'meist Land', 'Land, Luft', 'überall'],
-      ['Temperatur', 'wechselwarm', 'wechselwarm', 'wechselwarm', 'gleichwarm', 'gleichwarm']] },
+      ['Temperatur', 'wechselwarm', 'wechselwarm', 'wechselwarm', 'gleichwarm', 'gleichwarm'],
+      ['seit wann (Heft)', '570 Mio. J.', '375 Mio. J.', '300 Mio. J.', '120 Mio. J. (aus Dinosauriern)', '200 Mio. J.'],
+      ['Beispiel', 'Knochenfisch, z. B. Forelle', 'Frosch', 'Schlange, Eidechse', 'Taube', 'Wolf']] },
     vocab: [['Kiemen', 'Kie-men', 'Atmungsorgan im Wasser'], ['Laich', 'Laich', 'Eier ohne Schale im Wasser'], ['Metamorphose', 'Me-ta-mor-pho-se', 'Umwandlung von der Larve zum erwachsenen Tier'], ['Hornschuppen', 'Horn-schup-pen', 'trockene Schuppen aus Horn'], ['Befruchtung', 'Be-fruch-tung', 'Ei- und Samenzelle verschmelzen']],
     example: { q: 'Ein Tier hat trockene Hornschuppen, atmet mit Lungen und legt Eier mit ledriger Schale an Land. Welche Klasse?', a: 'Reptilien. Hornschuppen + Eier an Land passen nur dazu (Vögel hätten Federn).' },
     notes: [{ k: 'Ausnahme', t: 'Schnabeltier und Ameisenigel sind Säugetiere, legen aber Eier. Auch manche Fische, Amphibien und Reptilien bringen lebende Junge zur Welt (z. B. Feuersalamander, Blindschleiche).' }],
@@ -108,24 +114,28 @@
     { id: 'a3-08', o: 3, t: 'fill', lv: 2, q: 'Ergänze.', s: 'Fische atmen mit {Kiemen}. Die Larven der Frösche heißen {Kaulquappen|Kaulquappe|Larven}. Reptilien haben eine trockene Haut mit {Hornschuppen|Schuppen}.', bank: ['Kiemen', 'Kaulquappen', 'Hornschuppen', 'Federn', 'Lungen'], why: 'Kie-men · Kaul-quap-pen · Horn-schup-pen.' },
     { id: 'a3-09', o: 3, t: 'mc', lv: 3, q: 'Welches Merkmal haben ALLE fünf Klassen gemeinsam?', a: 'eine Wirbelsäule', w: ['Lungen', 'Eier mit Schale', 'eine gleichbleibende Körpertemperatur'], why: 'Darum heißen sie Wirbeltiere.' },
     { id: 'a3-10', o: 3, t: 'sort', lv: 2, q: 'Wo legen die Tiere ihre Eier ab?', b: ['im Wasser (Laich)', 'an Land (mit Schale)'], i: [['Forelle', 0], ['Grasfrosch', 0], ['Erdkröte', 0], ['Zauneidechse', 1], ['Meeresschildkröte', 1], ['Amsel', 1]], why: 'Auch Meeresschildkröten kommen zur Eiablage an den Strand.' },
+    { id: 'a3-12', o: 3, t: 'match', lv: 1, q: 'Welches Beispiel passt zur Klasse (wie in deiner Tabelle)?', p: [['Fische', 'Knochenfisch'], ['Amphibien', 'Frosch'], ['Reptilien', 'Eidechse'], ['Vögel', 'Taube'], ['Säugetiere', 'Wolf']], why: 'Zu jeder Klasse ein typisches Beispiel nennen können.' },
+    { id: 'a3-13', o: 3, t: 'multi', lv: 2, q: 'Welche Merkmale haben VÖGEL? Wähle alle richtigen.', a: ['Schnabel', 'Flügel mit Federn', 'atmen mit Lunge', 'gleichwarm'], w: ['Kiemen', 'nackte, schleimige Haut', 'wechselwarm'], why: 'Vögel: Schnabel, Federn, Lunge, gleichwarm – sie leben an Land, in der Luft und am Wasser.' },
     { id: 'a3-11', o: 3, t: 'mc', lv: 3, q: 'Ein Schüler sagt: „Der Wal ist ein Fisch, weil er im Wasser lebt.“ Was ist das beste Gegenargument?', a: 'Der Wal atmet mit Lungen und säugt seine Jungen – das sind Säugetier-Merkmale.', w: ['Der Wal ist zu groß für einen Fisch.', 'Der Wal hat keine Flossen.', 'Der Wal lebt auch an Land.'], why: 'Die Klasse bestimmt man nach den Merkmalen, nicht nach dem Lebensraum.' });
 
   // ------------------------------------------------------------------ 4 wechselwarm / gleichwarm
   L({ obj: 4, title: 'Wechselwarm und gleichwarm',
     text: [
       '**Wechselwarme** Tiere haben keine feste Körpertemperatur. Ihre Temperatur **folgt der Umgebung**: Ist es kalt, sind sie kalt und langsam. Ist es warm, sind sie warm und flink.',
+      'Wechselwarme Tiere **nehmen Wärme von außen auf** (z. B. von der **Sonne**). Sie **brauchen wenig Energie** und **kommen wochenlang ohne Nahrung aus**.',
       'Beispiele: **Fische, Amphibien, Reptilien** (z. B. Eidechse, Frosch, Forelle). Eine Eidechse sonnt sich am Morgen, um warm zu werden.',
       'Im Winter fallen wechselwarme Tiere in **Kältestarre** (Winterstarre). Sie können sich nicht mehr bewegen.',
       '**Gleichwarme** Tiere halten ihre Körpertemperatur fast **immer gleich** – egal, ob es kalt oder warm ist. Beim Menschen sind es etwa **37 °C**, bei Vögeln etwa **40–42 °C**.',
       'Beispiele: **Vögel und Säugetiere** (z. B. Maus, Hund, Amsel).',
-      'Gleichwarm sein kostet viel **Energie**. Gleichwarme Tiere müssen darum viel **fressen**. **Fell und Federn** halten die Wärme im Körper. Bei Hitze kühlen sie sich ab, z. B. durch **Schwitzen** oder **Hecheln**.',
+      'Gleichwarme Tiere **produzieren ihre Wärme selbst** (aus der Nahrung). Das kostet viel **Energie**. Gleichwarme Tiere müssen darum **regelmäßig fressen**. **Fell und Federn** halten die Wärme im Körper. Bei Hitze kühlen sie sich ab, z. B. durch **Schwitzen** oder **Hecheln**.',
       'Vorteil: Gleichwarme Tiere bleiben auch bei Kälte aktiv. Nachteil: Sie brauchen viel Nahrung.'
     ],
     fig: { n: 'temp' },
     vocab: [['wechselwarm', 'wech-sel-warm', 'Körpertemperatur wechselt mit der Umgebung'], ['gleichwarm', 'gleich-warm', 'Körpertemperatur bleibt gleich'], ['Kältestarre', 'Käl-te-star-re', 'starrer Zustand bei Kälte (wechselwarme Tiere)'], ['Energie', 'E-ner-gie', 'Kraft, die aus der Nahrung kommt']],
     example: { q: 'Warum sieht man im Winter keine Eidechsen, aber Amseln?', a: 'Die Eidechse ist wechselwarm. Bei Kälte wird sie starr und versteckt sich in Winterstarre. Die Amsel ist gleichwarm. Sie hält ihre Temperatur durch Fressen und aufgeplusterte Federn und bleibt aktiv.' },
     notes: [{ k: 'Fachwort', t: 'In Büchern stehen auch „ektotherm“ (wechselwarm) und „endotherm“ (gleichwarm).' }],
-    summary: ['Wechselwarm: Temperatur folgt der Umgebung – Fische, Amphibien, Reptilien.', 'Gleichwarm: Temperatur bleibt gleich – Vögel, Säugetiere.', 'Gleichwarm kostet viel Energie (Nahrung); Fell und Federn isolieren.'],
+    table: { head: ['', 'wechselwarm', 'gleichwarm'], rows: [['Körpertemperatur', 'schwankt stark, hängt von der Umgebung ab', 'bleibt immer gleich'], ['Wärme', 'nehmen Wärme von außen auf (Sonne)', 'produzieren Wärme selbst'], ['Energie und Nahrung', 'brauchen wenig Energie, kommen wochenlang ohne Nahrung aus', 'brauchen viel Energie, müssen regelmäßig fressen'], ['Tierklassen', 'Fische, Amphibien, Reptilien', 'Vögel, Säugetiere']] },
+    summary: ['Wechselwarm: Temperatur schwankt mit der Umgebung, Wärme von außen (Sonne), wenig Energie, wochenlang ohne Nahrung – Fische, Amphibien, Reptilien.', 'Gleichwarm: Temperatur bleibt gleich, Wärme selbst produziert, viel Energie, regelmäßig fressen – Vögel, Säugetiere.', 'Gleichwarm kostet viel Energie (Nahrung); Fell und Federn isolieren.'],
     simple: 'Wechselwarm ist wie ein Stein in der Sonne: warm in der Sonne, kalt im Schatten. Gleichwarm ist wie ein Haus mit Heizung: drinnen bleibt es immer gleich warm.',
     check: ['a4-01', 'a4-02', 'a4-04', 'a4-06'] });
 
@@ -142,5 +152,7 @@
     { id: 'a4-08', o: 4, t: 'mc', lv: 3, q: 'Es ist ein kühler Morgen (10 °C). Welches Tier kann sofort schnell weglaufen?', a: 'die Maus', w: ['die Zauneidechse', 'die Ringelnatter', 'die Erdkröte'], why: 'Die Maus ist gleichwarm und hat schon ihre Betriebstemperatur. Die anderen sind kalt und langsam.' },
     { id: 'a4-09', o: 4, t: 'mc', lv: 2, q: 'Wie kühlen sich gleichwarme Tiere bei Hitze ab?', a: 'durch Schwitzen oder Hecheln', w: ['durch Aufplustern', 'durch mehr Fressen', 'durch dichteres Fell'], why: 'Beim Schwitzen und Hecheln verdunstet Wasser – das kühlt.' },
     { id: 'a4-10', o: 4, t: 'num', lv: 1, q: 'Wie hoch ist ungefähr die Körpertemperatur des Menschen (in °C)?', a: 37, tol: 1, unit: '°C', why: 'Etwa 37 °C – bei Fieber höher.' },
+    { id: 'a4-12', o: 4, t: 'sort', lv: 2, q: 'Wechselwarm oder gleichwarm? Ordne die Aussagen zu.', b: ['wechselwarm', 'gleichwarm'], i: [['nimmt Wärme von außen auf (Sonne)', 0], ['braucht wenig Energie', 0], ['kommt wochenlang ohne Nahrung aus', 0], ['produziert Wärme selbst', 1], ['braucht viel Energie', 1], ['muss regelmäßig fressen', 1]], why: 'Wer selbst heizt, verbraucht viel Energie und muss oft fressen.' },
+    { id: 'a4-13', o: 4, t: 'mc', lv: 3, q: 'Eine Schlange frisst eine Maus und dann wochenlang nichts. Warum geht das?', a: 'Sie ist wechselwarm: Sie produziert keine eigene Wärme und braucht deshalb wenig Energie.', w: ['Sie ist gleichwarm und hat viele Fettreserven.', 'Sie macht Winterschlaf.', 'Schlangen müssen nie fressen.'], why: 'Wechselwarme Tiere heizen nicht selbst – sie nehmen Wärme von außen auf.' },
     { id: 'a4-11', o: 4, t: 'mc', lv: 3, q: 'Was ist ein VORTEIL wechselwarmer Tiere?', a: 'Sie brauchen viel weniger Nahrung.', w: ['Sie sind im Winter sehr aktiv.', 'Sie frieren nie.', 'Sie sind immer schnell.'], why: 'Sie „heizen“ nicht und sparen dadurch viel Energie.' });
 })(window.BIO);

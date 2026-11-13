@@ -340,14 +340,15 @@
   }
 
   // ======================================================================== VERTEBRATE TREE
+  function since(k, dflt) { var S = root.BIO && root.BIO.curriculum && root.BIO.curriculum.since; return 'seit ' + ((S && S[k]) || dflt) + ' Mio. J.'; }
   function tree(o) {
     var hide = !!o.hide, body = arrowDefs('ta', C.soft);
     var tips = [
-      { k: 'Fische', x: 100, c: C.blue, icon: '🐟', since: 'seit ca. 500 Mio. J.' },
-      { k: 'Amphibien', x: 200, c: C.green, icon: '🐸', since: 'seit ca. 370 Mio. J.' },
-      { k: 'Säugetiere', x: 300, c: C.orange, icon: '🐕', since: 'seit ca. 220 Mio. J.' },
-      { k: 'Reptilien', x: 400, c: C.teal, icon: '🦎', since: 'seit ca. 320 Mio. J.' },
-      { k: 'Vögel', x: 500, c: C.purple, icon: '🐦', since: 'seit ca. 150 Mio. J.' }];
+      { k: 'Fische', x: 100, c: C.blue, icon: '🐟', since: since('Fische', 500) },
+      { k: 'Amphibien', x: 200, c: C.green, icon: '🐸', since: since('Amphibien', 370) },
+      { k: 'Säugetiere', x: 300, c: C.orange, icon: '🐕', since: since('Säugetiere', 220) },
+      { k: 'Reptilien', x: 400, c: C.teal, icon: '🦎', since: since('Reptilien', 320) },
+      { k: 'Vögel', x: 500, c: C.purple, icon: '🐦', since: since('Vögel', 150) }];
     var yTop = 74, N1 = [160, 330], N2 = [230, 280], N3 = [310, 230], N4 = [450, 180];
     var br = [[[160, 384], N1], [N1, [100, yTop]], [N1, N2], [N2, [200, yTop]], [N2, N3], [N3, [300, yTop]], [N3, N4], [N4, [400, yTop]], [N4, [500, yTop]]];
     br.forEach(function (b) { body += line(b[0], b[1], '#B59B7C', 7); });
@@ -365,7 +366,7 @@
     body += line([580, 384], [580, 30], C.soft, 2, ' marker-end="url(#ta)"') + text(574, 396, 'früher', { size: 11, color: C.soft, anchor: 'end' }) + text(572, 92, 'heute', { size: 11, color: C.soft, anchor: 'end' });
     body += text(N1[0] + 14, N1[1] + 8, 'gemeinsame Vorfahren', { size: 11, anchor: 'start', color: C.ink });
     return { svg: svg(600, 404, body, 'Stammbaum der Wirbeltiere'), legend: null,
-      caption: 'Stammbaum (Schema). Jeder Punkt = gemeinsame Vorfahren, die heute nicht mehr leben. Die heutigen Klassen stehen oben NEBENEINANDER – keine heutige Klasse ist der Vorfahr einer anderen. Zeitangaben: erstes Auftreten, gerundet.' };
+      caption: 'Stammbaum (Schema). Jeder Punkt = gemeinsame Vorfahren, die heute nicht mehr leben. Die heutigen Klassen stehen oben NEBENEINANDER – keine heutige Klasse ist der Vorfahr einer anderen. Zeitangaben: erstes Auftreten (Zahlen aus dem Heft, andere Bücher runden etwas anders).' };
   }
 
   // ======================================================================== CHARTS

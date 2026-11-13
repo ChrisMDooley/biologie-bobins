@@ -91,7 +91,7 @@
     // 3 Bild(er)
     var figs = l.figs || (l.fig ? [l.fig] : []);
     if (l.stepper === 'stomach') parts.push(section('🖼️ Schritt für Schritt', stomachStepper()));
-    else if (figs.length) parts.push(section('🖼️ Bild', h('div', { class: 'figs' }, figs.map(function (f) { return U.figure(f.n, f.o); }))));
+    else if (figs.length && obj !== 1 && obj !== 2) parts.push(section('🖼️ Bild', h('div', { class: 'figs' }, figs.map(function (f) { return U.figure(f.n, f.o); }))));
     if (l.stepper === 'stomach' && figs.length) parts.push(U.figure('stomach', {}));
     if (obj === 1 || obj === 2) parts.push(treeExplorer());
     if (obj === 7) parts.push(skeletonPicker());
