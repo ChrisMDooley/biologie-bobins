@@ -72,8 +72,8 @@
   ];
 
   // LEHRKRAFT: "seit wann" — the numbers from Lukas's class notes (Heft, Nov 2026). Other books give slightly
-  // different numbers (e.g. Fische ca. 500–530, Vögel ca. 150 Mio. Jahre); the ORDER is what matters most.
-  var SINCE = { 'Fische': 570, 'Amphibien': 375, 'Reptilien': 300, 'Säugetiere': 200, 'Vögel': 120 };
+  // different numbers (e.g. Fische ca. 500–530, Vögel: Heft said 120, Chris chose 150); the ORDER is what matters most.
+  var SINCE = { 'Fische': 570, 'Amphibien': 375, 'Reptilien': 300, 'Säugetiere': 200, 'Vögel': 150 };
 
   var lessons = {}, questions = [];
   root.BIO = root.BIO || {};
